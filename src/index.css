@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --pold-red: #E50909;
+    --pold-deep-red: #B80606;
+    --pold-black: #111111;
+    --pold-soft-black: #242424;
+    --pold-warm-white: #FFF9F5;
+    --pold-light-surface: #F4F1EE;
+    --pold-white: #FFFFFF;
+    --pold-muted: #737373;
+    --motion-fast: 180ms;
+    --motion-medium: 350ms;
+    --motion-slow: 600ms;
+  }
+
+  html {
+    font-family: 'Cairo', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #FFF9F5;
+    color: #111111;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    overflow-x: hidden;
+    min-height: 100dvh;
+  }
+}
+
+.font-display {
+  font-family: 'Oswald', 'Cairo', sans-serif;
+}
+
+.font-arabic {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-mono-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide scrollbars on horizontal category nav while maintaining touch scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

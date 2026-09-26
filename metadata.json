@@ -1,0 +1,6 @@
+{
+  "name": "POLD — Burger & Fried Chicken Digital Menu",
+  "description": "Official mobile-first bilingual (Arabic/English) QR digital menu for POLD Burger & Fried Chicken.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
